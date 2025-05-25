@@ -1,0 +1,10 @@
+# Node
+node_modules/
+.env
+
+# OS
+.DS_Store
+
+# MCP output
+mcp-payload.json
+*.log
