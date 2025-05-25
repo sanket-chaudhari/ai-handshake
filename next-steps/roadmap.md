@@ -1,6 +1,6 @@
 ---
 file: next-steps/roadmap.md
-version: 1.1.1
+version: 1.1.2
 lastUpdated: 2025-05-25
 description: Tracks pending blindspots, improvements, and structural evolution of the ai-handshake protocol.
 ---
@@ -12,10 +12,14 @@ This file lists current gaps, blindspots, or things we’ve intentionally parked
 ---
 
 ## ✅ Covered So Far
+
 - Milestone-driven role updates
 - Versioned changelog + version map
 - Getting started scaffold and rituals
 - System check + feedback loop protocol
+- Role clarity and delegation framework
+- Context switching and chat jumping pattern
+- Prompt templates for reuse and protocol extension
 
 ---
 
@@ -31,6 +35,25 @@ This file lists current gaps, blindspots, or things we’ve intentionally parked
     - Triggering the `update-protocol.md` prompt when appropriate
   - Integrate this into the `system-check.md` flow as a valid trigger path for protocol evolution
 
+### 📌 Feedback Pathways & Contributions
+
+- [ ] Define a safe feedback capture mechanism for external protocol users
+- [ ] Enable protocol suggestions via GitHub issues + MCP bridge
+- [ ] Route feedback through sandboxed validation loops (agent-assisted)
+
+### 🧰 Tool-Specific MCP Scaffolds
+
+- [ ] Add guidance and plug-and-play folders for:
+  - Figma SDK / Plugin MCP agents
+  - GitHub MCP command agents
+  - JIRA task parsing bots
+  - Slackbot + internal agent bridges
+
+### 🧠 Memory & Context Protection
+
+- [ ] Bias the agent to always trust the user's local repo over memory
+- [ ] Define MCP fallback routines for sync loss, file drift, or memory reset
+
 ---
 
-> Last updated by system check + feedback consolidation flow.
+> Last updated by: `protocol.reconciliation+context-switch@v1.1.5`
