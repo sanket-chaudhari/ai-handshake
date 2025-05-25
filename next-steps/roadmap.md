@@ -1,72 +1,36 @@
 ---
 file: next-steps/roadmap.md
-version: 1.1.7
+version: 1.1.1
 lastUpdated: 2025-05-25
-description: Tracks protocol evolution, feature priorities, and upcoming plans
+description: Tracks pending blindspots, improvements, and structural evolution of the ai-handshake protocol.
 ---
 
-# 🛤️ ai-handshake — Roadmap
+# 🗺️ Roadmap — ai-handshake Protocol
 
-This document tracks major milestones, planned features, and protocol improvements.
-
----
-
-## ✅ Current State (as of v1.1.7)
-
-- All project files are versioned and synchronized via `version-map.md`
-- Modular changelog system established
-- Roles and protocols codified for:
-  - Software Architect
-  - Product Architect
-  - Documentation Writer
-- Sample prompts + rituals for onboarding new agents
-- Fully integrated MCP + Git workflow with milestone-driven development
+This file lists current gaps, blindspots, or things we’ve intentionally parked for later.
 
 ---
 
-## 🔭 Next Milestones
-
-### 🔄 Delta-Based Reconciliation Protocol (`v1.1.8`)
-- Append-only rules for updating protocol from outside contexts
-- Reconciliation process and validation triggers
-- Sample prompts for injecting updates from remote GPT threads
-
-### 🧭 Project Starter Templates (`v1.1.9+`)
-- Figma plugin template
-- Slackbot starter
-- iOS scaffold (SwiftUI + diagnostics)
-- Browser-based prototypes
-
-### 🌐 Cross-Agent Protocol Transfer Guide (`v1.2.0`)
-- Context transfer rituals between GPT, Claude, Cursor, GitHub MCP, etc.
-- Sample prompts for exporting/importing context safely
-- Protocol file references embedded in transfer payloads
-
-### 🧪 Project Health Utilities (Future)
-- Scripts to validate MCP setup
-- Snapshot diff checks
-- Dependency version sanity
-- Git hygiene audits
+## ✅ Covered So Far
+- Milestone-driven role updates
+- Versioned changelog + version map
+- Getting started scaffold and rituals
+- System check + feedback loop protocol
 
 ---
 
-## 💡 Future Wishlist
+## 🚧 Pending and Parked
 
-- `for-ai-agents.md` → Instructions for new GPTs to auto-orient
-- Optional `tests/` folder with MCP + setup test flows
-- Contribution flow (for open sourcing the protocol)
-- Changelog visualizer (CLI or HTML page)
+### 🧠 Protocol Resilience & Context Reconciliation
 
----
-
-## 🔁 Ongoing Principles
-
-- All changes are milestone-driven
-- Documentation is never assumed — it’s explicit, synced, and versioned
-- The system is AI-first, human-respecting, and philosophy-aligned
-- Redundancy is a feature when it protects clarity
+- [ ] 📥 Add protocol reconciliation logic when system-check feedback arises from different GPT contexts or tools  
+  - Ensure system feedback from outside the current project context (e.g. from a separate GPT chat or agent) can safely suggest updates to the protocol.
+  - Maintain integrity by:
+    - Staging suggestions in a `feedback/` folder
+    - Never mutating the protocol without reflection
+    - Triggering the `update-protocol.md` prompt when appropriate
+  - Integrate this into the `system-check.md` flow as a valid trigger path for protocol evolution
 
 ---
 
-> ✨ Want to add to this roadmap?
-> Propose changes using the `prompt-templates/update-protocol.md` flow, or paste a new block under `Future Wishlist`.
+> Last updated by system check + feedback consolidation flow.
