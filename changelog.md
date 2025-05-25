@@ -1,5 +1,6 @@
 ## 📘 Changelog
 
-### v1.0.9 — Add Software Architect Role
-- Added `roles/software-architect.v1.0.0.md`
-- Codifies system-wide impact awareness, human-AI responsibilities, and architectural flow behavior
+### v1.1.0 — Formalize AI Collaboration Roles
+- Added `roles/product-architect.v1.0.0.md`
+- Added `roles/white-collar-agents.md` and `roles/blue-collar-agents.md`
+- Clarified cross-role responsibilities and upstream-downstream handoff model
