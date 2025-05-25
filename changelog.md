@@ -1,6 +1,6 @@
 ## 📘 Changelog
 
-### v0.0.1 — Protocol Foundation Setup
-- Added `getting-started.v0.0.1.md`: Step-by-step guide for initial GPT setup
-- Added `initialise-handshake.gpt.md`: One-shot copy-paste prompt to launch a new project
-- Set up `setup/` folder for future extensibility
+### v1.0.5 — Start Guidance and Contribution Protocols
+- Updated `README.md` with how to begin a new project
+- Added `context-anchor-prompt.v1.md` to prime GPT after upload
+- Added `evolution-strategy.v1.0.0.md` to guide long-term protocol governance
