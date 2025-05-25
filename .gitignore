@@ -1,10 +1,7 @@
-# Node
+# Ignore node_modules and local logs
 node_modules/
-.env
+npm-debug.log
 
-# OS
-.DS_Store
-
-# MCP output
+# MCP temporary files
 mcp-payload.json
-*.log
+test.txt
