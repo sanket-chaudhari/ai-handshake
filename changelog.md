@@ -1,8 +1,25 @@
-# 📓 ai-handshake — Changelog Index
+---
+updatedOn: 2025-05-25
+---
 
-| Major Version | File                | Description                       |
-|---------------|---------------------|-----------------------------------|
-| v1.x          | changelog.v1.x.md   | Full log for the v1.x protocol era |
+# 🗃️ ai–handshake Protocol — Changelog
 
-> Use the appropriate changelog file based on the major protocol version.
-> All changelog entries beyond v1.1.6 should be stored in `changelog.v1.x.md`.
+---
+
+## 🧭 v1.1.5 — 2025-05-25
+### 🧱 Milestone: Protocol Resilience (Part 1)
+
+- **🧠 Appended:**
+  - `next-steps/roadmap.md` — restored full roadmap and added protocol reconciliation section
+
+- **What’s new:**
+  - Protocol now protects its own evolution across contexts.
+  - Roadmap will no longer be overwritten; all updates are additive.
+  - Adds infrastructure for feedback reconciliation and multi-agent protocol updates
+
+- **Philosophy Locked:**
+  - Knowledge must compound.
+  - Protocols must protect themselves from themselves.
+  - Change must be reflected, not replaced.
+
+---
