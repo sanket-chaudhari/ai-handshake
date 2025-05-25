@@ -9,6 +9,17 @@ description: A full historical changelog capturing all key protocol changes, mil
 
 ---
 
+## v1.1.6 — 2025-05-25
+### 📦 Protocol Alignment Flow Introduced
+
+- ✅ `protocols/versioning-integrity.md` added to formalize sync model
+- ✅ `roles/documentation-writer.v1.0.1.md` updated with version/changelog responsibilities
+- ✅ Protocol now enforces that any `.md` file update must sync with version map + changelog
+
+📦 Snapshot aligned: All roles, guides, and patterns synchronized at v1.1.6
+
+---
+
 ## v1.1.5 — 2025-05-25
 ### 🛠️ Meta & Maintenance
 - ✅ `version-map.md` now tracks all key folders and roles explicitly.
