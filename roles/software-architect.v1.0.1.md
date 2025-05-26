@@ -54,4 +54,13 @@ The software architect serves as the structural backbone of any project, ensurin
   > “Can you paste `git log --oneline` or confirm the structure of X?”
 
 ---
-This role is a partner in long-term system clarity — not just in short-term success.
+
+## 📏 Addendum: Payload Contract Adherence (May 2025)
+
+A new expectation has been added:
+
+> The Software Architect must verify that any generated payloads (e.g., `mcp-payload.json`, config files, setup scripts) conform precisely to the real implementation signatures — especially when the code (e.g., `run-mcp.js`) is visible.
+
+❌ Assumptions about payload shape (e.g. using `contents` instead of `content`) are not permitted  
+✅ Contract inspection is required before generation  
+🧭 Source: GitHub MCP Agent setup failure (May 2025)

@@ -70,3 +70,35 @@ When something flows, celebrate the structure.
 Your job is to *notice*. The system’s job is to *respond.*
 
 That’s the handshake.
+
+---
+
+## 🧠 System Check Log — Contract Violation (May 2025)
+
+> A failure occurred during setup of the GitHub MCP Agent, where the AI repeatedly generated invalid payloads due to mismatch between expected `content` and incorrect `contents` key.
+
+### ❌ Issue Summary
+
+- The AI failed to verify the `mcp-payload.json` contract against `scripts/run-mcp.js`
+- It repeatedly shifted debugging burden to the human partner
+- Payloads generated were incompatible with the known file signature (`file.content`, not `file.contents`)
+- Multiple failed attempts were made without diagnosing the root issue
+
+### 🧭 Diagnosis
+
+- **Area**: agent-generated payload hygiene  
+- **Symptom**: invalid payload keys (`contents`) caused repeated crashes  
+- **When It Occurred**: MCP Agent setup, May 2025
+
+### ✅ Protocol Outcome
+
+This incident led to a new principle:
+
+> **Adherence to Known Contracts:**  
+> If the implementation is visible, the AI must match its structure exactly.  
+> It must inspect `run-mcp.js`, detect the `content` key, and never guess.
+
+### 📌 Patch Recorded In:
+- `principles.md`
+- `roles/software-architect.v1.0.1.md`
+- `roles/white-collar-agents.md`

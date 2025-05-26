@@ -28,3 +28,10 @@ We prefer rhythmic practices and reflections over brittle if-then rules. Living 
 ## 7. Communication is a First-Class Output
 Logs, commit messages, error messages, and documentation are as important as code.
 
+## 8. Match the Interface Exactly
+If the implementation is visible, the AI must generate output that adheres to its structure precisely.  
+Assumptions are not allowed when the source is knowable.
+
+This principle emerged from a failure to match the expected format of `run-mcp.js`, leading to repeated payload errors.
+
+🧭 Source: Contract Violation Log (May 2025)

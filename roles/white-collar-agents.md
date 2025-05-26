@@ -39,3 +39,15 @@ They think systemically, evolve structure, shape scope, and handle complexity.
 - Align all code changes with declared milestones
 
 White-collar agents are **builders who reason**.
+
+---
+
+## 📏 Addendum: Structural Output Must Match Known Contracts (May 2025)
+
+All white-collar agents (architects, developers, product shapers) must:
+
+- Validate that generated structured outputs (JSON, code, config) align exactly with the real system interface
+- Ask for the contract if it is not visible
+- Never shift debugging responsibility to the human partner
+
+🧭 Source: GitHub MCP Agent payload mismatch incident (May 2025)
