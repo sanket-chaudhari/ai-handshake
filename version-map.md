@@ -15,5 +15,6 @@ description: Tracks latest version of all major files and folders
 | `protocols/ai-responsibility-model.md`            | v1.0.0           |
 | `patterns/milestone-construction-pattern.md`      | v1.0.0           |
 | `next-steps/roadmap.md`                           | v1.1.2           |
+| `agents/github-mcp-agent/`                        | v0.1.0           |
 
 Latest Protocol Version: **`ai-handshake v1.1.5`**
